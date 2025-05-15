@@ -1,0 +1,17 @@
+model_id: gpt-4o
+batch_size: 16
+concurrency: 20
+n: 1
+unique_key: "id"
+save_key: "Dialog_Response"
+query_key: "dialogue"
+image_key: "image_path"
+start_idx: 0
+end_idx: null
+round: "2"
+
+input_dir: "data"
+image_dir: null
+
+output_dir: "round"
+base_url: null

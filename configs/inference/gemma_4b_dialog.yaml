@@ -1,0 +1,18 @@
+## model config
+model_path: "google/gemma-3-4b-it"
+batch_size: 64
+tensor_parallel_size: 8
+tmp_path: None
+inference_type: 'dialog'
+round: '2' ## round number
+
+## input data folder
+data_path: "/data"
+input_file: "2_turn"
+image_dir: null
+image_key: "image_path"
+query_key: "dialogue"
+
+## output data folder
+output_path: "round"
+output_key: "Dialog_Response"
