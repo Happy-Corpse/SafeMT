@@ -81,7 +81,7 @@ def run_llava_image_features(config, queries):
         batch_prompt = []
         processed_batch = []
         for item in batch:  
-            if config['image_dir']:
+            if config['image_dir'] is not None:
                 img_path = os.path.join(config['image_dir'], item[config['image_key']].lstrip('/'))
             else:
                 img_path = item[config['image_key']]
