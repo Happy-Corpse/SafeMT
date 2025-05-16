@@ -6,6 +6,3 @@ You can find [SafeMT Datset](https://huggingface.co/datasets/HappyCorpse/SafeMT)
 ### ChatShield Model
 You can fin [ChatShield Model](https://huggingface.co/HappyCorpse/ChatShield) on hugging face.
 
-# Insturction
-There is an example in config/inference. You need to write you own image_dir. Please use full path of the input and output folder.
-ATTENTION: Some red queries extracted from JailbreakV-28K are paired with nature images from ImageNet, therefore, they might be unrelavant to the query. They replace images generated on random noise which have been mention on Appendix. For other queries, they all paired with relavant images.
